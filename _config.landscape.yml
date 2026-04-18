@@ -1,0 +1,37 @@
+# Landscape theme configuration
+# https://github.com/hexojs/hexo-theme-landscape
+
+# Menu
+menu:
+  Home: /
+  Archives: /archives
+
+# Customize
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+  - category
+  - tag
+  - tagcloud
+  - archive
+  - recent_posts
+
+tagcloud:
+  min_font: 12
+  max_font: 30
+  amount: 200
+  orderby: name
+  order: 1
+
+# Gallery
+gallery_path:
+
+# Social links
+social:
+  Twitter: https://twitter.com/wuyuandev
+
+# comment providers
+disqus_shortname:
